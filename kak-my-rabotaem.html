@@ -460,6 +460,54 @@
         </div>
     </div>
 
+    <!-- Получить индивидуальный расчет -->
+    <div class="popUp popUp-individual-calculation d-none">
+        <div class="popUp-content">
+            <button class="popUp-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.73257 19.0002C4.58769 19.0003 4.44605 18.9573 4.32558 18.8769C4.20511 18.7964 4.11121 18.682 4.05576 18.5481C4.00031 18.4143 3.98581 18.267 4.01408 18.1249C4.04235 17.9828 4.11213 17.8523 4.21459 17.7498L17.7499 4.21455C17.8873 4.07718 18.0736 4 18.2679 4C18.4621 4 18.6485 4.07718 18.7858 4.21455C18.9232 4.35193 19.0004 4.53825 19.0004 4.73253C19.0004 4.9268 18.9232 5.11312 18.7858 5.2505L5.25054 18.7858C5.18258 18.8539 5.10184 18.9079 5.01295 18.9447C4.92406 18.9815 4.82877 19.0004 4.73257 19.0002Z" fill="#A7B0BE"/>
+                    <path d="M18.2678 19.0002C18.1716 19.0004 18.0763 18.9815 17.9874 18.9447C17.8985 18.9079 17.8178 18.8539 17.7498 18.7858L4.21455 5.2505C4.07718 5.11312 4 4.9268 4 4.73253C4 4.53825 4.07718 4.35193 4.21455 4.21455C4.35193 4.07718 4.53825 4 4.73253 4C4.9268 4 5.11312 4.07718 5.2505 4.21455L18.7858 17.7498C18.8882 17.8523 18.958 17.9828 18.9863 18.1249C19.0146 18.267 19.0001 18.4143 18.9446 18.5481C18.8892 18.682 18.7953 18.7964 18.6748 18.8769C18.5543 18.9573 18.4127 19.0003 18.2678 19.0002Z" fill="#A7B0BE"/>
+                </svg>
+            </button>
+            <p class="popUp-title">Получить индивидуальный расчет</p>
+            <form class="form-calc">
+                <div class="input-box">
+                    <label for="name-calc" class="form__lab">Имя*</label>
+                    <input type="text" id="name-calc" class="form__inp">
+                    <small></small>
+                    <div class="test">
+                        <img src="assets/img/svg/success.svg" alt="">
+                        <img src="assets/img/svg/close.svg" alt="">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="phone-calc" class="form__lab">Номер*</label>
+                    <input type="text" id="phone-calc" class="form__inp">
+                    <small></small>
+                    <div class="test">
+                        <img src="assets/img/svg/success.svg" alt="">
+                        <img src="assets/img/svg/close.svg" alt="">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="email-calc" class="form__lab">E-mail*</label>
+                    <input type="email" id="email-calc" class="form__inp">
+                    <small></small>
+                    <div class="test">
+                        <img src="assets/img/svg/success.svg" alt="">
+                        <img src="assets/img/svg/close.svg" alt="">
+                    </div>
+                </div>
+                <div class="check-box d-flex align-center">
+                    <input type="checkbox" class="check_inp">
+                    <p class="check-text">Я даю свое согласие на обработку персональных данных и соглашаюсь с 
+                        <a href="#">политикой конфиденциальности</a>
+                    </p>
+                </div>
+                <button type="button" class="form-submit">Записаться</button>
+            </form>
+        </div>
+    </div>
 
     <!-- окно спасибо -->
     <div class="popUp popUp-thanks d-none">
@@ -484,6 +532,7 @@
     <script src="assets/js/block15.js"></script>
     <script src="assets/js/block7.js"></script>
     <script src="assets/js/consultation.js"></script>
+    <script src="assets/js/individual-calculation.js"></script>
     <script src="assets/js/pop-up.js"></script>
 </body>
 </html>
